@@ -1,0 +1,17 @@
+package interfaces;
+
+public class Dog implements Animal {
+
+	@Override
+	public void makeSound() {
+		System.out.println("The Dog Barks");
+		
+	}
+
+	@Override
+	public void move() {
+		System.out.println("The Dog runs");
+		
+	}
+
+}

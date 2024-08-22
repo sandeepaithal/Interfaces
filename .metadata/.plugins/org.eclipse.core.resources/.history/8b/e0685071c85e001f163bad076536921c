@@ -1,0 +1,9 @@
+package interfaces;
+
+public class ShapeTest {
+public static void main(String[] args) {
+	Shape s=new Circle(5);
+	s.draw();
+	s.CalculateArea();
+}
+}
